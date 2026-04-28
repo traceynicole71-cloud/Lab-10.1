@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0a0a0a;
+  display: flex;
+  justify-content: conter;
+  align-items: center;
+  height: 100vh;
+  font-family:"Marker Felt", "Permanent Marker", "Comic Sans MS";
+}
