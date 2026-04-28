@@ -3,12 +3,14 @@
   padding: 30px;
   background-color: #0a0a0a;
   border-radius: 12px;
-  border: 1px solid #333;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  border: 2px solid #2b6cb0;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
   text-align: center;
   font-family: "Marker Felt", "Permanent Marker";
 }
 
+.sub-header { color: #888; font-size: 1rem; text-transform: uppercase; letter-spacing: 2px;}
+.main-count { font-size: 3rem; margin:}
   &:hover {
     border-color: var(--accent-border);
   }
