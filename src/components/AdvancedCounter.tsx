@@ -64,7 +64,7 @@ const AdvancedCounter: React.FC = () => {
             </div>
 
             <div className="status-area">
-                {isSaving ? <em>Writing...</em> : <em>Changes Saved.</em>}            
+                {isSaving ? <em>Writing...</em> : <em>Count By Multiples</em>}            
                 </div>
 
         <hr className="divider" />
