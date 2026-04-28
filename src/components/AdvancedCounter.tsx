@@ -26,7 +26,7 @@ const AdvancedCounter: React.FC = () => {
             if (event.key === 'ArrowDown') setCount((prev) => prev - step);
         };
         window.addEventListener('keydown', handleKeyDown);
-        return () => window.removeEventListener('keydown, handleKeyDown');
+        return () => window.removeEventListener('keydown', handleKeyDown);
     }, [step]);
 
     const increment = () => setCount((prev) => prev + step);
@@ -40,7 +40,7 @@ const AdvancedCounter: React.FC = () => {
     return (
         <div className="counter-card">
             <header>
-                <p className="sub-header">COUNTER</p>
+                <p className="sub-header">MY COUNTER APP</p>
                 <h1 className="main-count">
                     Count: <span>{count}</span>
                 </h1>
