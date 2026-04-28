@@ -1,75 +1,74 @@
-# React + TypeScript + Vite
+# Component Creation and Props
+REact Counter with useEffect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of contents
 
-Currently, two official plugins are available:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+  - [AI Collaboration](#ai-collaboration)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-## React Compiler
+## Overview
+Scenario:
+You have been tasked to build an advanced counter application. This project will challenge you to go beyond simple state updates by requiring you to manage multiple state dependencies, implement side effects using the useEffect hook (including proper cleanup), and handle more complex state update logic. The goal is to solidify your understanding of useState and useEffect in a practical context, focusing on how they work together to create interactive and responsive components.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
-Note: This will impact Vite dev & build performances.
+### The challenge
 
-## Expanding the ESLint configuration
+- Implement and manage multiple pieces of state within a single component using useState.
+- Utilize the useEffect hook to perform side effects in response to state changes.
+- Implement proper cleanup functions within useEffect to prevent memory leaks or unexpected behavior.
+- Write state update logic that correctly handles dependencies and previous state.
+- Apply your knowledge to build a feature-rich counter with history tracking, auto-save, keyboard interactions, and a reset mechanism.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Links
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Assignment URL: https://ps-lms.vercel.app/curriculum/se/416/lab-1#submission
+- Github URL: https://github.com/traceynicole71-cloud/Lab-10.1
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## My process
+ My process was to develop code by following the activity tasks step-by-step.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Built with
+- React
+- CSS
+- Typescript
+
+
+### What I learned
+
+I learned how to build a React application that features an advanced counter using useEffect and useState.
+
+### Continued development
+
+Continued development for me is to pay attention to importing and exporting that links each code file to the appropriate others. I also need to remember to pay close attention to my styling in CSS.
+
+### Useful resources
+
+- [Fullstack Advanced Youtube] https://www.youtube.com/watch?v=AA8RP0z_CYY
+- [Dave Gray Youtube React useEffect Tutorial] https://www.youtube.com/watch?v=j3vk0FW71DM
+- [Dave GRay Youtube React useState Tutorial] https://www.youtube.com/watch?v=P9ELDeqNToo
+- Jeffrey lEak, Computer Scientist
+
+
+### AI Collaboration
+
+I the Github co-pilot to make sure my Typescript files were configured correctly. I also used Google Gemini when I could't get my counter card to center.  
+
+
+## Acknowledgments
+
+Thank you to Jeffrey Leak for helping me to make senses of React concepts and methods.
+
