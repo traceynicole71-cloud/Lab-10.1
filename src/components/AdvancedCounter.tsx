@@ -40,7 +40,7 @@ const AdvancedCounter: React.FC = () => {
     return (
         <div className="counter-card">
             <header>
-                <p className="sub-header">MY COUNTER APP</p>
+                <p className="sub-header">COUNTER APP</p>
                 <h1 className="main-count">
                     Count: <span>{count}</span>
                 </h1>
