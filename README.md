@@ -65,7 +65,7 @@ Continued development for me is to pay attention to importing and exporting that
 
 ### AI Collaboration
 
-I the Github co-pilot to make sure my Typescript files were configured correctly. I also used Google Gemini when I could't get my counter card to center.  
+I the Github co-pilot to make sure my Typescript files were configured correctly; and at my final revision, I used it to wrap text in the 'History Log so that the App card would not expand across the screen. I also used Google Gemini when I could't get my counter card to center.  
 
 
 ## Acknowledgments

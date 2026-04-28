@@ -5,7 +5,7 @@
 }
 
 .counter-card {
-  width: 420ps;
+  width: min(420px, 100%);
   padding: 30px;
   background-color: #0a0a0a;
   border-radius: 12px;
@@ -13,6 +13,7 @@
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   text-align: center;
   font-family: "Marker Felt", "Permanent Marker";
+  box-sizing: border-box;
 }
 
 .sub-header {
@@ -107,7 +108,9 @@
 
 .history-list {
   color: #888;
-  word-break: break-all;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: normal;
   max-height: 60px;
   overflow-y: auto;
 }
